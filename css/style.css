@@ -24,3 +24,34 @@ nav ul, li a {
     padding: 10px;
     font-size: 1.2rem;
 } 
+header {
+    display: flex;
+}
+
+header, #img-profil {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 50%;
+    margin-top: 2rem;
+    margin-right: 12rem;
+}
+
+h2 {
+    position: absolute;
+    left: 20rem;
+    top: 10rem;
+    font-size: 2.3rem;
+}
+h3{
+    position: absolute;
+    left: 20rem;
+    top: 12rem;
+    font-size: 1.8rem;
+    padding-top: 15px;
+    color: BLUE;
+}
+#presentation {
+    background-color: lightblue;
+    padding: 20px;
+}
