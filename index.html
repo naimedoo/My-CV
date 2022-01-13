@@ -1,59 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My-CV</title>
     <link rel="stylesheet" href="./CSS/style.css">
+
     <!-- style de police-->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-------------------------FONT AWESOME----------------->
+    <script src="https://kit.fontawesome.com/6897ea06e2.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <nav>
-        <h1>Noémie MARTIN</h1>
-        <ul>
-            <li>Profil</li>
-            <li><a href="#Expériences">Expériences</a></li>
-            <li><a href="#Formation">Formation</a></li>
-        </ul>
+        <h2 id="name">Naïm EDOO</h2>
+            <ul>
+                <li>Profil</li>
+                <li><a href="#Expériences">Expériences</a></li>
+                <li><a href="#Formation">Formation</a></li>
+            </ul>
     </nav>
     <header>
-        <h2>Noémie MARTIN</h2>
-        <h3>Développeuse Fullstack</h3>
-        <img src="./img/noemie_martin.png" id="img-profil" alt="photo-profil"/>
-    </header> 
+        <h1>Naïm EDOO</h1>
+        <h3>Développeur Fullstack</h3>
+        <img src="./img/noemie_martin.png" id="img-profil" alt="photo-profil" />
+    </header>
     <main>
         <section id="presentation">
-        <div class="profil">
-          <h4>Présentation</h4>
-       </div>
-        <div class="list">
-            <ul>
-                <li>Passionné de nouvelle technologie</li>
-                <li>Autonome, rigoureux</li>
-                <li>Une bonne journée ne se passe pas sans un bon livre</li>
-            </ul>
-        </div>
-    </section>
-    <div id="Experiences">
-        <section id="career">
-            <h4 id="title-expériences">Expériences professionnelles</h4>
-            <article class="compétences">
-                <h5>Stagiaire en développement chez TechLabs</h5>
-                <p>Création du site web</p>
-                <p>Création de test unitaires</p>
-            </article>
-                <p id="year">2018</p>
-            <article class="compétences">
-                <h5>Bénévole Konexio</h5>
-                <p>Organisation des évènements</p>
-                <p>Validation des comptes des associations</p>
-            </article>
-                <p id="year">2016-2018</p>
+            <div class="profil">
+                <h4>A propos de moi...</h4>
+            </div>
+            <div class="list">
+                <p>
+                    Après 21 ans danS le domaine du fret aérien, j'ai décidé de me consacrer à ma passion qui est 
+                    l'informatique.
+                    Pour cela , je me suis formé en autodidacte sur des langages de programmationsen suivant des cours 
+                    de développeur/intégrateur web. 
+                    Grâce à mes expériences,la gestion du stress et des priorités sont devenus mon point fort.
+                    Curieux, motivé,d ynamique, persévérant, j'aime apprendre pour améliorer mes compétences.
+                </P>
+            </div>
         </section>
-    </div>
+        <section id="Expériences">
+            <h4>Expériences professionnelles</h4>
+            <div class="experiences-date">
+                <h5>Coordinateur de sureté aéroportuaire</h5>
+                <span class="year">2006-2021</span>
+            </div>
+            <p>coordonner le travail d'une équipe</p>
+            <p>Responsable de la conduite des opérations sur l'ensemble des postes </p>
+            <div class="experiences-date">
+                <h5>Opérateur de sureté aéroportuaire</h5>
+                <span class="year">2000-2006</span>
+            </div>
+            <p>Saisie des donées d'une LTA et vérification de l'agrément des agents habilités dans la base de données européennes.</p>
+            <p>Vérification  de la réservation des expéditions et destinations a l"aide de CARGOSPOT.</p>
+            <div class="experiences-date">
+                <h5>Technicien de maintenance informatique</h5>
+                <span class="year">1999-2000</span>
+            </div>
+            <p>Assurer la maintenance informatique , montage et assemblage des composants des unités centrales.</p>
+            <p>Installation en réseau du matériel informatiquechez le client.</p>
+        </section>
+        <section id="Formation">
+            <h4 class="career">Formation</h4>
+            <div class="diplome">
+                <p>Formation de développeur web et web mobile chez KONEXIO</p>
+                <span class="year">En cours de formation</span>
+            </div>
+            <div class="diplome">
+                <p>Niveau bac pro MAVELEC</p>
+                <span class="year">1998-1999</span>
+            </div>
+            <div class="diplome">
+                <p>BEP ELECTRONIQUE</p>
+                <span class="year">1996-1997</span>
+            </div>
+        </section>
+        <section>
+            <h4>Passions</h4>
+            <div class="hobbies">
+                <ul>
+                    <li>cinéma</li>
+                    <li>sport</li>
+                    <li>Voyage</li>
+                </ul>
+            </div>
+        </section>
     </main>
-    
+    <footer>
+        <div class="blog">
+            <a href="https://www.konexio.eu/">Mon blog tech</a>
+            <a href="https://www.konexio.eu/">Mon blog Voyage</a>
+        </div>
+        <a href="index.html" id="page-home"><i class="fas fa-arrow-circle-up"></i></a>
+        <div class="icons">
+            <a href="www.linkedin.com"><i class="fab fa-linkedin-in"></i>Linkedin</a>
+            <a href="www.Twitter.com"><i class="fab fa-twitter-square"></i>Twitter</a>
+        </div>
+    </footer>
 </body>
 </html>
